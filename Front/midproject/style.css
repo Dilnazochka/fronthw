@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: url('./img/background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .flight-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    width: 300px;
+    width: 350px;
+  }
+  .cities {
+    display: flex;
+  }
+  
+  .city {
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .city h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #2a68af;
+    font-family: 'Prompt', sans-serif;
+  }
+  .city p {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+  }
+  
+  .separator {
+    width: 10px;
+    height: 2px;
+    background-color: #407cff4f;
+  }
+  .flight-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16px;
+    margin: 15px 0;
+  }
+  
+  .flight-info div {
+    text-align: center;
+  }
+  
+  .flight-info h4 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #888;
+  }
+  
+  .flight-info p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+  }
+  .passenger-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 10px;
+  }
+  
+  .passenger-details h4 {
+    font-size: 10px;
+    color: #888;
+    font-weight: 700;
+  }
+  
+  .passenger-details p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-side div {
+    margin-bottom: 8px;
+  }
+  
+  .qr-code {
+    margin-top: -5px;
+  }
+  
+  .qr-code img {
+    width: 100px;
+    height: 100px;
+  }
